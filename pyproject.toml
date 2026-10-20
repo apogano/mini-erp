@@ -7,7 +7,12 @@ authors = [
     { name = "apogano", email = "apogano@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "django>=6.1.2",
+    "dotenv>=0.9.9",
+    "gunicorn>=26.2.0",
+    "psycopg[binary]>=3.3.6",
+]
 
 [project.scripts]
 mini-erp = "mini_erp:main"

@@ -12,5 +12,8 @@ wheels/
 .env
 
 
-#
+# Geany
 *.geany
+
+#Pycharm
+.idea/
